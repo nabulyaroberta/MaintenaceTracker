@@ -1,6 +1,68 @@
 .form{
-    background-color: green;
+    background-color:plum;
     text-align: center;
-    padding: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    
+
+}
+.loginpage{
+    width:360px ;
+    padding:80% ;
+    margin:auto;
+    background-color: orange;
+}
+
+.form input{
+    font-family: sans-serif;
+    outline: 0;
+    width: 80%;
+    border: 0;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-button{
+    font-family: sans-serif;
+    outline: 0;
+    background-color: pink;
+    width: 100%;
+    border: 0;
+    padding: 15%;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.container{
     position: relative;
+    margin: auto;
+    width: 300px;
+}
+
+.body{
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+.loginform{
+    align-items: center;
+}
+
+button{
+    width: 80%;
+    margin: 20px;
+    padding:10px;
+    background-color: purple;
+    color: white;
+    font-size: large;
+
+}
+
+.login{
+    padding-top: 10px;
 }

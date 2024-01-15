@@ -7,18 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="login page">
+    <div class="loginpage">
         <div class="form">
-        <div class="logiin">
+        <div class="login">
             <div class="login header">
                 <h3>LOGIN</h3>
                 <P>Please enter your detailes to login</P>
      </div>
      </div>
-<form class="login form">
-    <input type="text"  placeholder="username"><br>
+    <input id="user" type="text"  placeholder="username"><br>
     <input type="password" placeholder="password"><br>
-    <button>Login</button><br>
+    <button onclick="clickme()">Login</button><br>
+    <script>
+        function clickme(){
+            console.log("You clicked me")
+            var username=document.getElementById("user").value 
+            console.log(nameinput)
+
+            
+        }
+    </script>
+
 
 
 </form>
